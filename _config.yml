@@ -1,13 +1,13 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:  Ben Collins
+locale: en_US
 url:
 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
+  name: Ben Collins
+  avatar: headshot-greyscale.jpg
+  bio: "Christian, programmer, husband & daddy, wannabe triathlete"
+  email: aggieben@gmail.com
+  disqus-shortname: aggieben
+  twitter: aggieben
   facebook: #username
   google:
-    plus: #username
-    analytics:
-    verify:
+    plus:
+    analytics: UA-75176-10
+    verify: ATAv-6F9Inq1N0mCqEuE61wRR-Bv1U2LzuslYW-_xjA
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  github: aggieben
+  stackoverflow: 3279/ben-collins
+  linkedin: bcollins
   xing: #username
   instagram: #username
   lastfm: #username
