@@ -643,7 +643,20 @@ h2.month {
 	.post h2 { font-size:20px; }
 }
 
+
+/* Footnotes */
 sup {
 	font-size: 80%;
 	vertical-align: super;
+}
+
+.footnotes ol,
+.footnotes li,
+.footnotes p {
+	margin-bottom: 0;
+	font-size: 0.9rem;
+}
+
+.footnotes ol li {
+	list-style-type: decimal;
 }
