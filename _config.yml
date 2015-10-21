@@ -1,61 +1,42 @@
-# Site wide configuration
+name: Ben codes
+description: Christian, programmer, husband & daddy, wannabe triathlete.
+meta_description: "Ben Collins, blogging mostly about programming"
 
-title:  Ben.Codes
-locale: en_US
-url:
+aboutPage: true
 
-
-# Jekyll configuration
-
-permalink:   /:year-:month-:day/:title
-markdown:    kramdown
+markdown: redcarpet
 highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+paginate: 20
+baseurl: /
+domain_name: 'ben.codes'
+google_analytics: 'UA-75176-10'
+disqus: true
+disqus_shortname: 'bencodes'
 
+# Details for the RSS feed generator
+url:            'http://ben.codes'
+author:         'Ben Collins'
+authorTwitter:  'aggieben'
 
-# Site owner
-owner:
-  name: Ben Collins
-  avatar: headshot-greyscale.jpg
-  bio: "Christian, programmer, husband & daddy, wannabe triathlete"
-  email: aggieben@gmail.com
-  disqus-shortname: bencodes
-  twitter: aggieben
-  facebook: #username
-  google:
-    plus:
-    analytics: UA-75176-10
-    verify: ATAv-6F9Inq1N0mCqEuE61wRR-Bv1U2LzuslYW-_xjA
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: aggieben
-  stackoverflow: 3279/ben-collins
-  linkedin: bcollins
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+permalink:       /:year/:title/
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
