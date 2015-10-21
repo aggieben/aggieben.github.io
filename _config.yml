@@ -15,7 +15,7 @@ disqus: true
 disqus_shortname: 'bencodes'
 
 # Details for the RSS feed generator
-url:            'http://ben.codes'
+url:            'ben.codes'
 author:         'Ben Collins'
 authorTwitter:  'aggieben'
 
