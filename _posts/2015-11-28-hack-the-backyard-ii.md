@@ -5,6 +5,8 @@ layout: post
 tags: [remote-working]
 ---
 
+![not actually a remote worker]({% if site.baseurl == "/" %}{% else %}{{site.baseurl}}{% endif %}/assets/images/remote.jpg "not an actual remote worker")
+
 # YARWPPT
 
 So, working remotely can be a desirable state of affairs for a lot of people.  But there are some things that one has
@@ -18,6 +20,8 @@ basic problem in both areas is that there isn't a direct replacement for being c
 When you're co-located, you take for granted that you can just pop over to someone's office and have a quick conversation (never mind that you just destroyed that person's concentration), or collaborate on a whiteboard.  When you're not co-located, you have to be much more deliberate to accomplish the same tasks.
 
 There's also the notion of _presence_, which is hard to quantify, but it's the benefit of just being around people.  When they're working hard on something, you know.  You know when they arrive to and leave from work.  You can sometimes tell if they're having a bad day.  You also feel like part of a group working toward a common goal.
+
+![feeling isolated]({% if site.baseurl == "/" %}{% else %}{{site.baseurl}}{% endif %}/assets/images/isolated.jpg "feeling isolated")
 
 When you're remote you have to be much more intentional about achieving the same results.  
 
