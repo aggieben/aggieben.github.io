@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: redirect
+sitemap: false
+permalink: http://ben.codes/2014/the-katana-pipeline/
+redirect_to: http://benjamincollins.com/blog/the-katana-pipeline
 title: "The Katana Pipeline"
 modified:
 categories:
