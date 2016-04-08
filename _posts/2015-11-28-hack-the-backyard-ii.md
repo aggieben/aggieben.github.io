@@ -1,7 +1,9 @@
 ---
 title: Hack the Backyard II
 date: 2015-11-28
-layout: post
+layout: redirect
+sitemap: false
+redirect_to: http://benjamincollins.com/blog/hack-the-backyard-ii
 tags: [remote-working]
 ---
 

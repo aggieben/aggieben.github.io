@@ -1,5 +1,6 @@
 ---
 layout: post
+sitemap: false
 title: "I Finally Understand OptionsModel"
 modified:
 categories:

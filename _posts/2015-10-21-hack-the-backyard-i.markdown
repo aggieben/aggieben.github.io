@@ -1,5 +1,7 @@
 ---
-layout: post
+layout: redirect
+sitemap: false
+redirect_to: http://benjamincollins.com/blog/hack-the-backyard-i
 title: Hack the Backyard I
 date: 2015-10-21T09:24:49-05:00
 author:
